@@ -5,8 +5,8 @@
 
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
-  
-    char Pais[20] = Brasil;
+
+    char Pais[20] = "Brasil";
     int populacao1 = 270000000; 
     int populacao2 = 250000000;
     float pib1 = 80.7;
@@ -22,10 +22,7 @@ int main() {
     
   // Área para entrada de dados
      printf("Escolha sua Carta!\n");
-    scanf("%s", &Carta1);
-
-    printf("Escolha sua Carta!\n");
-    scanf("%s", &Carta2);
+     scanf("%s", &Carta1);
 
   // Área para exibição dos dados da cidade
 
@@ -38,6 +35,8 @@ int main() {
     printf("PIB: %.1f\n", pib1);
 
   // Carta2
+    printf("Escolha sua Carta!\n");
+    scanf("%s", &Carta2);
 
     printf("Carta 2: %s\n", Carta2);
     printf("Código da Carta: %s\n", codigo_da_carta2);
