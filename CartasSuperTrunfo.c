@@ -82,7 +82,7 @@ char cidade2[20];
 //Área para exibição dos dados da cidade
 
 //Carta2
-  printf("Carta 1: %d\nPaís: %s\nCódigo da Carta: %s\nEstado: %s\nCidade: %s\nPopulação: %d\nAréa da Cidade: %.2f\nPIB: %.2f\nNúmero de Pontos Turisticos: %d\n", Carta1, pais, codigo1, estado1, cidade1, populacao1, area2, pib1, n_d_p_t1);
+  printf("Carta 2: %d\nPaís: %s\nCódigo da Carta: %s\nEstado: %s\nCidade: %s\nPopulação: %d\nAréa da Cidade: %.2f\nPIB: %.2f\nNúmero de Pontos Turisticos: %d\n", Carta2, pais, codigo2, estado2, cidade2, populacao2, area2, pib2, n_d_p_t2);
   DensidadePopulacional2 = (float) (populacao2 / area2);
   printf("Densidade Populacinal: %.2f\n", DensidadePopulacional2);
   PIB_PC2 = (float) (pib2 / populacao2 );
